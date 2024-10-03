@@ -1,0 +1,344 @@
+body 
+{
+   background-color: #ccaa50; 
+   margin: 0;
+   font-size: 26px;
+}
+
+#sfjeracz
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    background-image: url(./Obrazy/pobrane.png);
+    background-size: 1000px 300px;
+    width: 1000px;
+    height: 300px;
+    margin: 0;
+    opacity: 0.4;    
+}
+
+p,#intro,.opis2
+{
+    text-align: justify;
+    padding: 20px;    
+    line-height: 2;
+}
+
+h2,h3,h4
+{
+    text-align: center;
+}
+
+h2
+{
+    font-weight: 900;
+    text-shadow: 
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white,
+    2px -2px 0 white;
+    background-color: #333;
+    padding: 24px;
+    letter-spacing: 14px;
+    text-transform: uppercase;
+    margin-top: 250px;
+}
+
+#intro
+{
+    background-color: #664918;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 8px solid #553807;
+    border-top: 8px solid #553807;
+}
+
+#kategorje
+{
+    background-color: #444;
+    padding-top: 8px;
+    margin-top: 15px;
+    line-height: 1.5;
+    height: 110px;
+    z-index: 1000;
+    text-align: center;
+    font-size: 22px;
+}
+
+ol,ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ol
+{
+    display: inline-block;
+    text-align: center;
+}
+
+ol > li
+{
+    float: left;
+    width: 232px;
+    text-shadow: 
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    -2px -2px 0 white,
+    2px -2px 0 white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding: 8px;    
+    border-radius: 12px;
+    transition: all .3s ease-in-out;
+}
+
+
+ol > li:hover
+{
+    background-color: #333;
+}
+
+ol > li:hover ul
+{
+    display: block;
+}
+
+ul
+{
+    display: none;
+}
+
+ul > li:first-child
+{
+   margin-top: 30px; 
+}
+
+ul > li:last-child
+{
+    margin-bottom: 0;
+}
+
+ul > li
+{
+    margin-bottom: 15px;
+    background-color: #444;
+    padding: 6px 0;
+    border-radius: 8px;
+    transition: all .2s ease-in-out;
+}
+
+ul > li:hover
+{
+    background-color: #666;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+#tlo
+{
+    background-image: url(./Obrazy/tlo.jpeg);
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: 1000px 580px;
+}
+
+#no-margin-first
+{
+    margin: 0;
+    font-size: 46px;
+    background: #5f3747;
+    color: darkgreen;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#no-margin-second
+{
+    margin-top: 0;
+}
+
+ol > li > ul > li > a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: 
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black;
+}
+
+h3
+{
+    background-color: #666;
+    padding: 18px;
+    margin-top: 200px;
+}
+
+h3 > a
+{
+    text-decoration: none;
+    color: white;
+    text-shadow: 
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    -2px -2px 0 black,
+    2px -2px 0 black;
+    display: block;
+    padding: 20px;
+}
+
+#media
+{
+    background-color: #444;
+    padding: 60px 10px 10px 10px;
+    text-align: center;
+}
+
+.yt
+{
+    float: left;
+    width: 235px;
+    background: red;
+    padding: 5px;
+    height: 235px;
+    line-height: 7.5;
+    opacity: 0.4;
+    transition: all .6s ease-in-out;
+}
+
+.yt:hover
+{
+    opacity: .7;
+}
+
+.tw:hover
+{
+    opacity: .7;
+}
+
+.fb:hover
+{
+    opacity: .7;
+}
+
+.gplus:hover
+{
+    opacity: .7;
+}
+
+.gplus
+{
+    float: left;
+    width: 235px;
+    background: orangered;
+    padding: 5px;
+    height: 235px;
+    line-height: 7.5;
+    opacity: 0.4;
+    transition: all .6s ease-in-out;
+}
+
+.fb
+{
+    float: left;
+    width: 235px;
+    background: darkblue;
+    padding: 5px;
+    height: 235px;
+    line-height: 7.5;
+    opacity: 0.4;
+    transition: all .6s ease-in-out;
+}
+
+.tw
+{
+    float: left;
+    width: 235px;
+    background: skyblue;
+    padding: 5px;
+    height: 235px;
+    line-height: 7.5;
+    opacity: 0.4;
+    transition: all .6s ease-in-out;
+}
+
+.obrazek
+{
+    background: black;
+    width: 240px;
+    float: left;
+}
+
+.obrazek.czm
+{
+    height: 600px;
+}
+
+.obrazek.czm > img
+{
+    height: 600px;
+}
+
+.obrazek.ak
+{
+    height: 428px;
+}
+
+.obrazek.ak > img
+{
+    height: 428px;
+}
+
+.obrazek#k
+{
+    height: 395px;
+}
+
+.obrazek#k > img
+{
+    height: 395px;
+}
+
+.obrazek > img
+{
+    width: 240px;
+    height: 360px;
+}
+
+.obrazek2
+{
+    background: silver;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obrazek2 > img
+{
+    width: 960px;
+    height: 440px;
+}
+
+img
+{
+    display: block;
+}
+
+.opis
+{
+    float: left;
+    width: 720px;
+    text-align: justify;
+    line-height: 2;
+    padding: 0 20px;
+}
