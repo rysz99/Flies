@@ -14,7 +14,7 @@ body
 
 h1
 {
-    background-image: url(./Obrazy/pobrane.png);
+    background-image: url(pobrane.png);
     background-size: 1000px 300px;
     width: 1000px;
     height: 300px;
@@ -144,7 +144,7 @@ ul > li:hover
 
 #tlo
 {
-    background-image: url(./Obrazy/tlo.jpeg);
+    background-image: url(tlo.jpeg);
     height: 580px;
     background-repeat: no-repeat;
     background-size: 1000px 580px;
