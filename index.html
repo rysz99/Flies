@@ -8,6 +8,26 @@
     <meta name="keywords" content="znane, kreskówki, czasy powojenne, oglądaj, Włatcy Móch" />
     <link rel="stylesheet" href="flies.css" type="text/css" />
     <script src="flies.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+        <script>
+
+           jQuery(function($)
+        {
+           //zresetuj scrolla
+               $.scrollTo(0);
+
+          //animowane przejścia do nagłowków h3
+               $('#czesio').click(function(){$.scrollTo ($('#czeslaw'), 5000);});
+               $('#maslana').click(function(){$.scrollTo ($('#maslo'), 5000);});
+               $('#konieczko').click(function(){$.scrollTo ($('#konieczne'), 5000);});
+               $('#fral').click(function(){$.scrollTo ($('#frau'), 5000);});
+
+               $('#higienistka').click(function(){$.scrollTo ($('#higiena'), 5000);});
+             $('#anus').click(function(){$.scrollTo ($('#anusiak'), 5000);});       
+        });
+
+        </script>
 </head>
 <body onload="wlacz_zegar(), zmien_slajder()">
     <div id="sfjeracz">
@@ -26,20 +46,20 @@ Maecenas et leo quis nisl convallis scelerisque. Nullam ullamcorper metus sit am
                         <li>
 Gówni pochaterzy
                             <ul>
-                                <li id="czeslaw">
-<a href="#czesio">Czesio</a>
+                                <li id="czesio">
+Czesio
                                 </li>
                                 
-                                <li id="maslo">
-<a href="#maslana">Maślana</a>
+                                <li id="maslana">
+Maślana
                                 </li>
                                 
                                 <li id="anus">
-<a href="#anusiak">Anusiak</a>
+Anusiak
                                 </li>
                                 
-                                <li id="konieczny">
-                                    <a href="#konieczko">Konieczko</a>
+                                <li id="konieczko">
+                                    Konieczko
                                 </li>
                                 
                                 <li id="panna">
@@ -152,7 +172,7 @@ Nunc erat ipsum, ornare vitae imperdiet et, lobortis at magna. Maecenas suscipit
                     
                     <article>
                         <header>
-                            <h3 id="czesio">
+                            <h3 id="czeslaw">
 <a href="#kategorje">Czesio</a>                                
                             </h3>
                         </header>
@@ -172,7 +192,7 @@ Proin eget luctus nulla, nec feugiat leo. Phasellus sed dui nec tellus bibendum 
                     
                     <article>
                         <header>
-                            <h3 id="maslana">
+                            <h3 id="maslo">
 <a href="#kategorje">Maślana</a>                                
                             </h3>
                         </header>
@@ -212,7 +232,7 @@ Sed faucibus eros id imperdiet imperdiet. Donec non ante sem. Mauris id quam et 
                     
                     <article>
                         <header>
-                            <h3 id="konieczko">
+                            <h3 id="konieczne">
 <a href="#kategorje">Konieczko</a>                                
                             </h3>
                         </header>
